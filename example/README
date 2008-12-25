@@ -1,0 +1,32 @@
+Requirement
+
+有一个以日期命名的文件夹里放着这样一些文件：
+
+f01.txt
+e02.txt
+a22.txt
+axx.txt
+jii.txt
+
+这些文件里的内容都类似下面的格式
+
+guixing 12
+zhongqin 10
+xiaolong 11
+
+要求只读出文件名是1个小写字母带两个数字的文件。
+并且把这些文件里的人名相同的数值加起来，
+最后再把结果写到一个以当天日期为名的txt文件里。
+并且在这些文件里记录下源文件的md5值。
+
+使结果如下
+====Result====
+xiaolong 111
+zhongqin 102
+guixing  202
+====Files====
+f01.txt 912ec803b2ce49e4a541068d495ab570
+a02.txt 912ec803b2ce49e4a541068d495ab570
+a03.txt 912ec803b2ce49e4a541068d495ab570
+
+
